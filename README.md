@@ -16,21 +16,32 @@ Customizable Appearance: Uses CSS injection to apply a dark theme, ensuring that
 
 How It Works:
 
-Installation: Upon installation, the extension initializes with the dark theme disabled by default.
+Installation: 
+
+Upon installation, the extension initializes with the dark theme disabled by default.
+
 Toggle Button: Click the extension icon in the toolbar to open the popup. Use the toggle button to activate or deactivate the dark theme.
-Dynamic Styling: When enabled, the extension injects a custom CSS file to change the background to a dark color and adjust text colors. The CSS file is dynamically added or removed based on the user's preference.
+
+Dynamic Styling: When enabled, the extension injects a custom CSS file to change the background to a dark color and adjust text colors. 
+The CSS file is dynamically added or removed based on the user's preference.
 
 Technologies Used:
+
 Chrome Extensions API: For managing extension lifecycle, storage, and content scripts.
+
 CSS: To apply and manage dark theme styles.
+
 JavaScript: For handling user interactions and theme toggling.
 
 Installation:
+
 Download or clone the repository.
 Open Chrome and go to chrome://extensions/.
 Enable "Developer mode" by toggling the switch in the top-right corner.
 Click "Load unpacked" and select the directory containing the extension files.
+
 Usage:
+
 Click the extension icon in the Chrome toolbar to open the popup.
 Use the toggle button to switch between dark and light themes.
 Feel free to explore and contribute to the project. For any issues or feature requests, open an issue on this repository.
