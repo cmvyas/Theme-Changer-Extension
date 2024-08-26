@@ -1,0 +1,55 @@
+/* Apply dark background color to the body */
+body {
+    background-color: #121212 !important; /* Dark background */
+    color: #ffffff !important; /* White text */
+  }
+  
+  /* Ensure text color is white for elements with black or near-black colors */
+  body * {
+    color: #ffffff !important; /* Default text color */
+  }
+  
+  /* Reset background color for all elements to avoid overriding styles */
+  div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center, dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend, table, caption,
+  tbody, tfoot, thead, tr, th, td, article, aside,
+  canvas, details, embed, figure, figcaption,
+  footer, header, hgroup, menu, nav, output,
+  ruby, section, summary, time, mark, audio, video {
+    background-color: transparent !important; /* No background color */
+  }
+  
+  /* Preserve button and input colors */
+  button, .switch, .slider, input[type="checkbox"], input[type="radio"], .btn,a {
+    background-color: initial !important; /* Preserve button background colors */
+    /* Preserve button text colors */
+  }
+  
+  /* Ensure links and other text colors are white */
+  a,.btn {
+    color: #ffffff !important;
+    background-color: initial !important;  /* White links */
+  }
+  
+  /* Override black and near-black text colors */
+  :root {
+    --black: #000000;
+    --near-black: #333333; /* Adjust as needed */
+  }
+  
+  body * {
+    color: #ffffff !important; /* Default text color */
+  }
+  
+  body *[style*="color: #000000"], 
+  body *[style*="color: var(--black)"],
+  body *[style*="color: #333333"],
+  body *[style*="color: var(--near-black)"] {
+    color: #ffffff !important; /* Change text color to white */
+  }
+  

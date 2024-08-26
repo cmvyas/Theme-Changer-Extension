@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Dark Theme Toggle",
+    "version": "1.0",
+    "description": "Toggle dark theme on and off for all websites.",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "moon.png",
+        "48": "moon.png",
+        "128": "moon.png"
+      }
+    },
+    "icons": {
+      "16": "moon.png",
+      "48": "moon.png",
+      "128": "moon.png"
+    }
+  }
+  
