@@ -1,4 +1,4 @@
-Dark Theme Toggle Extension
+Dark Theme Toggle Extension ☾
 Description:
 
 This Chrome extension allows users to toggle a dark theme on and off for any website they visit. Designed to provide a more comfortable browsing experience, 
